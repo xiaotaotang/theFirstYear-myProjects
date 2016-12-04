@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.centent{
+	margin:20px 0;
+	}
+/*选项卡开始（大学生活，大学学习，大学恋爱；励志文章，励志演讲，励志故事）*/
+.centent_left{
+	float:left;
+	overflow:hidden;}
+.centent_left .tab_menu{
+	overflow:hidden;}
+.centent_left .tab_menu li{
+	width:33.33%;
+	float:left;
+	height:30px;
+	background:rgb(255,204,204);
+	line-height:30px;
+	text-align:center;}
+.centent_left .tab_menu li.current{
+	background:white;}
+.centent_left .box{
+	width:400px;
+	overflow:hidden;
+	background:#fff;
+	border:1px solid red;
+	margin-bottom:20px;}
+.centent_left .tab_box{
+	padding:20px;}
+.centent_left .tab_box p{
+	text-indent:30px;
+	font-size:16px;
+	line-height:24px;
+	margin-bottom:5px;}
+.centent_left .tab_box span{
+	display:block;
+	text-indent:240px;
+	}
+.centent_left .tab_box span a{
+	padding:2px;
+	background:lightblue;}
+.centent_left .tab_box ul{
+	margin-top:12px;
+	clear:both;
+	}
+.centent_left .tab_box ul li,.centent_right ul li{
+	height:33px;
+	font-size:16px;
+	line-height:33px;
+	padding-left:20px;
+	/*以下3行代码实现文本溢出显示省略号*/
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	background:url(../images/li_bg.gif) no-repeat left center;
+	border-bottom:1px solid #ccc;
+	}
+.centent_left .tab_box .hide{
+	display:none;}
+/*热门文章开始*/
+.centent_right{
+	float:left;
+	width:360px;
+	margin-left:30px;
+	overflow:hidden;
+	background:#fff;
+	border:1px solid red;}
+.centent_right h2{
+	margin-bottom:8px;
+	text-align:center;
+	padding:5px 0;
+	background:rgb(255,204,204);
+	}
+.centent_right ul{
+	padding:10px 20px 20px;
+}

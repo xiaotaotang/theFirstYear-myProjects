@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+/*-------------文章开始-----------------*/
+.mainBody .right .content{
+	background:white;
+	clear:both;
+	width:798px;
+	margin:20px 0;
+	border:1px solid red;}
+.mainBody .right .content .noborder{
+	border-bottom:none;}
+.mainBody .right .content h2[title="关于人生"]{
+	padding:5px 0  5px 60px;
+	background:rgb(255,204,204);
+	border-bottom:1px solid red;
+	}
+.mainBody .right .content>div {
+	overflow:hidden;
+	clear:both;
+	line-height:28px;
+	padding:20px;
+	border-bottom:1px solid #ccc;} 
+.mainBody .right .content>div h2{
+	padding:5px;
+	text-align:center;
+	color:blue;}
+.mainBody .right .content>div .info{
+	padding:5px 0;
+	text-align:center;
+	border:1px dotted #CCCCCC;}
+.mainBody .right .content>div p{
+	text-indent:2em;
+	font-size:20px;
+	line-height:34px;}
+

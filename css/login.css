@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+}
+.register{
+	width:400px;
+	margin:60px auto;
+	padding:20px;
+	border:6px solid rgb(255,204,102);
+	border-radius:30px;
+	-moz-border-radius:30px; /* Old Firefox */
+	background-color:#ffff99;
+	}
+.register h1{
+	font-size:46px;
+	font-family:楷体;
+	text-align:center;
+	margin-bottom:20px;
+	border-bottom:1px solid #fc6;}
+#register_form p{
+	line-height:50px;
+	text-align:right;}
+#register_form label.error {
+    padding:0 20px;
+    color: red;
+}
+#register_form input[placeholder]{
+	width:280px;
+	height:42px;
+	border:1px solid rgb(0,0,255);
+	border-radius:8px;
+	-moz-border-radius:8px;/* Old Firefox */}
+#register_form input[placeholder]:hover{
+	border:2px solid rgb(0,0,255);}
+#register_form input[id="codes"]{
+	width:200px;}
+#register_form span{
+	display:block;
+	float:right;
+	width:66px;
+	height:28px;
+	padding:2px;
+	text-align:center;
+	margin:8px 0;
+	line-height:28px;
+	background:#ccc;}	
+#register_form input[type="submit"]{
+	width:100px;
+	height:52px;
+	margin:20px 150px;
+	border:1px solid #f90;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	background-image:-moz-linear-gradient(top,#ffffcc,#ffcc99);
+	background-image:-webkit-gradient(linear,left top,left bottom,from(#ffffcc),to(#ffcc99));
+}	

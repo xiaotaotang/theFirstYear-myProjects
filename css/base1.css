@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+/*-------------文章开始-----------------*/
+.mainBody .right .content{
+	background:white;
+	clear:both;
+	width:798px;
+	margin:20px 0;
+	border:1px solid red;}
+.mainBody .right .content h2{
+	padding:5px 0  5px 60px;
+	background:rgb(255,204,204);
+	border-bottom:1px solid red;
+	}
+.mainBody .right .content .pic_news{
+	overflow:hidden;
+	clear:both;
+	line-height:28px;
+	padding:20px;
+	border-bottom:1px solid #ccc;} 
+.mainBody .right .content .noborder{
+	border-bottom:none;}
+.mainBody .right .content .pic_news img{
+	display:block;
+	float:left;
+	width:240px;
+	height:200px;
+	margin-right:20px;
+	border:2px solid rgb(204,204,204);
+	vertical-align:middle;
+	} 
+.mainBody .right .content .pic_news h3 a{
+	position:relative;
+	left:30px;
+	top:0;
+	color:red;
+	transition:all 1s ease 0s;
+	}
+.mainBody .right .content .pic_news h3 a:hover{
+	position:relative;
+	left:80px;
+	top:0;
+	color:red;
+	}
+.mainBody .right .content .pic_news span a{
+	padding-left:300px;}
